@@ -10,10 +10,12 @@ public class ExtremeSport extends Sport {
 //        System.out.println("doing extreme sport");
 //    }
     public void doSomethingElse() {
-//        super.doSomething();
+        super.doSomething();
         System.out.println("doing extreme sport");
     }
 
     public static void main(String[] args) {
+        ExtremeSport e=new ExtremeSport();
+        e.doSomethingElse();
     }
 }

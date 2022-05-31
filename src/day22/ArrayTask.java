@@ -13,8 +13,9 @@ public class ArrayTask {
         System.out.println(data[1]);
         System.out.println(data[2]);
         System.out.println(data[3]);
+       ;
 
         data[3] = 20;
-        System.out.println(data[3]);
+        System.out.print(data[3]);
     }
 }

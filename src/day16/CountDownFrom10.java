@@ -6,7 +6,7 @@ public class CountDownFrom10 {
         int counter= 10;
 
         while (counter!=0){
-            System.out.println(counter--);
+            System.out.print(" " +counter--);
         }
 
     }

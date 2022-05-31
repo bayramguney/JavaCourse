@@ -13,7 +13,7 @@ public class IteratingAnyCollection {
         // this the ArrayList constructor that accept any type of Collection object
         // public ArrayList(Collection<E> c) { }
 
-        Collection<Integer> nums = new ArrayList<>(Arrays.asList(10, 4, 5, 22, 88, 13));
+        Collection<Integer> nums = (Arrays.asList(10, 4, 5, 22, 88, 13));
 
         // what is the best way to remove element while iterating over the collections
         // using the Iterator instead of for each loop / for loop / .....

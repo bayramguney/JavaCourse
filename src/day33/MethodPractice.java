@@ -1,14 +1,16 @@
 package day33;
 
-import org.w3c.dom.ls.LSOutput;
+
 
 public class MethodPractice {
     public static String getSpelledName( String name){
         String result="";
-        for (int i = 0; i < name.length()-1; i++) {
+        for (int i = 0; i < name.length(); i++) {
+
             result+=name.charAt(i)+"-";
-        }
-        result+=name.charAt(name.length()-1);
+
+            }
+      // result+=name.charAt(name.length()-1);
         return result;
     }
 

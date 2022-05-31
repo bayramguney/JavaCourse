@@ -8,16 +8,13 @@ public class ReversingString {
         // another String variable reversedName
         // 01234567
         String name = "Tony Stark";
-        String reversedName = "";
+        String reversedName ="";
 
         int lastCharIndex = name.length() - 1;
 
         for (int x = lastCharIndex; x >= 0; x--) {
-
-            System.out.print(x + " index : ");
-
             char currentChar = name.charAt(x);
-            System.out.println(currentChar);
+            System.out.print(x + " index : "+currentChar+"\n");
 
             reversedName = reversedName + currentChar;
 

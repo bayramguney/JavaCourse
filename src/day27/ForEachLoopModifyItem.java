@@ -22,6 +22,7 @@ public class ForEachLoopModifyItem {
 
         for ( int eachItem:arr ) {
             eachItem=20;
+
         }
         System.out.println(Arrays.toString(arr));
 

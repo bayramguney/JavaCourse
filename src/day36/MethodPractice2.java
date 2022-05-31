@@ -18,6 +18,7 @@ public class MethodPractice2 {
      * @param nums long array
      */
     public  static void swapFirstAneLastValue(long [] nums){
+
         long temp = nums[0];
         nums [0] = nums[nums.length-1];
         nums [nums.length-1]=temp;

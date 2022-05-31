@@ -13,7 +13,7 @@ public class Singleton {
             System.out.println("we already have this object");
         }return instance;
     }
-    private Singleton(){
+private Singleton(){
         System.out.println("no arg constructor being called");
     }
 }

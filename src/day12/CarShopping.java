@@ -7,11 +7,11 @@ public class CarShopping {
         int carPrice=40000;
 
 
-//        if(carBrand.equals("corolla") || carBrand.equals("Tesla") && carPrice<=budget){
-//            System.out.println("CAR ACQUIRED!!");
-//        }else{
-//            System.out.println("No buy this time");
-//        }
+        if(carBrand.equals("Tesla") || carBrand.equals("corolla") && carPrice<=budget){
+            System.out.println("CAR ACQUIRED!!");
+        }else{
+            System.out.println("No buy this time");
+        }
 
     }
 }

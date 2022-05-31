@@ -11,7 +11,7 @@ public class VariablePractice {
         /*
         Block comment, everything in between will be seen as comment
 
-        whole numbers      : byte, short, int, double
+        whole numbers      : byte, short, int, long
         fractional numbers : float, double
         Logical            : boolean ( true, false)
         Character          : char (single character in single quote)
@@ -25,21 +25,21 @@ public class VariablePractice {
         //age calculator
         //given birth year, please calculate  age
 
-//        int birthYear=2001;
-//        int currentYear= 2019;
-//        int age= currentYear-birthYear;
-//        System.out.println("I was born in year "+ birthYear+ " and I am "+age+" years old");
-//
+        int birthYear=2001;
+        int currentYear= 2019;
+        int age= currentYear-birthYear;
+        System.out.println("I was born in year "+ birthYear+ " and I am "+age+" years old");
 
-        //Task 2 : you are speeding today
-        //speed limit is some number, and your current speed is this
-        //generate this output of: You are driving 10 mph more than the speed limit
-
-//        int mySpeed= 70;
-//        int speedLimit=65;
-//        int  difference=mySpeed-speedLimit;
-//        System.out.println("Speed limit is "+speedLimit);
-//        System.out.println("You are driving "+ difference+"mph"+" more than the speed limit");
+/*
+        Task 2 : you are speeding today
+        speed limit is some number, and your current speed is this
+        generate this output of: You are driving 10 mph more than the speed limit
+*/
+        int mySpeed= 70;
+        int speedLimit=65;
+        int  difference=mySpeed-speedLimit;
+        System.out.println("Speed limit is "+speedLimit);
+        System.out.println("You are driving "+ difference+"mph more than the speed limit");
 
 
     }

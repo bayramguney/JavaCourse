@@ -34,7 +34,7 @@ public class build3DigitNumber {
         return number;
     }
     public static void main(String[] args) {
-        System.out.println(build3DigitNumber(8,9,2));
+        System.out.println(build3DigitNumber(2,19,2));
         System.out.println(build3DigitNumber(12,0,5));
 
 

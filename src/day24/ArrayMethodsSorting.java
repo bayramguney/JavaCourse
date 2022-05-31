@@ -14,7 +14,6 @@ public class ArrayMethodsSorting {
         System.out.println("nameChars = " + nameChars);
 
         Arrays.sort(nameChars);
-
-        System.out.println("After Sorting nameChars = " + nameChars);
+        System.out.println("After Sorting nameChars = " + Arrays.toString(nameChars));
     }
 }

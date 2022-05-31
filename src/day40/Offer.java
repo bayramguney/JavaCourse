@@ -12,7 +12,8 @@ public class Offer {
         System.out.println("Location = " + location + " | " +
                             "Company = " + company + " | " +
                              "Salary = " + salary + " | " +
-                             "isFullTime = " + isFullTime);
+                             "isFullTime = " + isFullTime + " | "+
+                             "is100K = " + is100KOffer());
     }
 
     // write a method called turnToFullTime

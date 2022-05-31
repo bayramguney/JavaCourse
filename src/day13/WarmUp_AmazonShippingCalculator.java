@@ -8,7 +8,7 @@ public class WarmUp_AmazonShippingCalculator {
         System.out.println("Enter your user type (prime or no member)");
         String userType=scan.nextLine();
         System.out.println("Enter the purchase amount");
-        double purchaseAmount=scan.nextInt();
+        double purchaseAmount=scan.nextDouble();
 double shippingFee=5;
 double total=shippingFee+purchaseAmount;
         if(userType.equalsIgnoreCase("prime")){

@@ -18,7 +18,11 @@ public class ArraysCalssMethods {
 - -         */
         String [] words ={"coding", "start", "to", "day", "perfect", "Sunday"};
         Arrays.sort(words);
-        System.out.println(Arrays.toString(words));
+       System.out.println(Arrays.toString(words));
+
+       int [] sayi={1,3,4,2,6,8,5};
+       Arrays.sort(sayi);
+        System.out.println(Arrays.toString(sayi));
 
         String [] first2words = Arrays.copyOf(words, 2);
         System.out.println(Arrays.toString(first2words));

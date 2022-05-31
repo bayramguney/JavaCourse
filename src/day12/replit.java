@@ -44,11 +44,11 @@ public class replit {
         }else if(item.equals("Smartphone")){
             System.out.println("Thank you for your purchase");
             balance=100-300;
-            System.out.println("Sorry, not enough funds on your gift card!");
+            System.out.println("Sorry, not enough funds on your gift card!. You need extra "+(-balance) + " dolar");
         }else if(item.equals("Laptop")){
             System.out.println("Thank you for your purchase");
             balance=100-400;
-            System.out.println("Sorry, not enough funds on your gift card!");
+            System.out.println("Sorry, not enough funds on your gift card!.You need extra "+(-balance) + " dolar");
         }else{
             System.out.println("Invalid item!");
         }

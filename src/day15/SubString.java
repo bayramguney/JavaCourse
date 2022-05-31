@@ -9,7 +9,7 @@ public class SubString {
         // I want to get the String "of" from this movie
 String wordOf = movie.substring(5,7);
         System.out.println("wordOf = " + wordOf);
-String wordThe = movie.substring(8,11);
+String wordThe = movie.substring(8,17);
         System.out.println("wordThe = " + wordThe);
 
         int startingPoint= movie.indexOf(" ")+1;

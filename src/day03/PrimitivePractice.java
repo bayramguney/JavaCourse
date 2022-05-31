@@ -7,7 +7,7 @@ public class PrimitivePractice {
         System.out.println("The letter count is = " + letterCount);
         short sheepCount = 300;
         System.out.println("The sheep count is = "+sheepCount);
-        long mileToSun= 100000000l;
+        long mileToSun= 100000000L;
         System.out.println("Mile to sun is = "+ mileToSun);
 
         //f must be added to the end

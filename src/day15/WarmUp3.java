@@ -12,7 +12,7 @@ public class WarmUp3 {
         System.out.print( name.charAt(1)   );
         System.out.print( name.charAt(0)   );
 
-
+        System.out.println();
         int characterCount = name.length();
         int lastCharIndex = characterCount-1;
         char lastChar= name.charAt(lastCharIndex);

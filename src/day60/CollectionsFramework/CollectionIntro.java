@@ -31,7 +31,7 @@ public class CollectionIntro {
         names.add("Daria");
         names.add("Lorin");
         names.addAll(names); // addAll method parameter type is Collection (interface) so we can pass anything IS-A Collection
-
+        System.out.println(names);
 //        names.remove("Hasan");
         // removeAll can be used to remove many items at the same time
         // removeAll expect another Collection object

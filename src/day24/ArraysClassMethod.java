@@ -26,6 +26,7 @@ public class ArraysClassMethod {
         int[] numbers= {2,56,12,35};
         System.out.println("As a string");
         System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers).charAt(1));
 
         // for sorting and array in ascending order
         // sort  ---> Arrays.sort(yourArrayHere)

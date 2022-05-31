@@ -11,7 +11,7 @@ public class WarmUpArrayPractice {
 
         // to store this in another array object
 
-        int [] [] sheet = new int[][]{row1, row2, };
+        int [] [] sheet = new int[][]{row1, row2 };
 
     }
 }

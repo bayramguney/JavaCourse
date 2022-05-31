@@ -27,7 +27,7 @@ public class IndexOfWith2Parameters {
         System.out.println(name.indexOf("Java", 23));
 
         System.out.println("\"yusuf sule isik\" = " + "yusuf sule isik");
-        
-        
+
+        System.out.println(name.lastIndexOf("Java"));
     }
 }

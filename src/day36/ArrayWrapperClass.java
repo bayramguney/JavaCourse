@@ -3,7 +3,7 @@ package day36;
 public class ArrayWrapperClass {
     public static void main(String[] args) {
         sumAndPrint(12,13);
-        sumAndPrint(Integer.valueOf(23),Integer.valueOf(10));
+        sumAndPrint(Integer.valueOf(23), 10);
         // non deprecated way of adding objects.
 
         System.out.println("------------ method with int parameter");

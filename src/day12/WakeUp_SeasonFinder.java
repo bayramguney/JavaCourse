@@ -3,7 +3,7 @@ package day12;
 public class WakeUp_SeasonFinder {
     public static void main(String[] args) {
 
-        int month=12;
+        int month=11;
         if(month<1 || month>12){
             System.out.println("Invalid Month");
         }else if(month>=3 && month<=5){

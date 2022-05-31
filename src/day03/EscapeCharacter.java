@@ -1,5 +1,7 @@
 package day03;
 
+import java.util.Scanner;
+
 public class EscapeCharacter {
     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
@@ -7,14 +9,14 @@ public class EscapeCharacter {
 //        String name = sc.next();
 //        System.out.println("Your name is " + name);
 
-//        System.out.println("Hello \tworld");
-//        System.out.println("Hello \nworld");
-//        System.out.println("Hello \'world");
-//        System.out.println("Hello \"world");
-//        System.out.println("Hello \\world");
-//        System.out.println("Hello \"world\"");
-//        System.out.println("The movie is: \'The Lord of the Rings\'");
-        System.out.println(5d/3d);
+        System.out.println("Hello \tworld");
+        System.out.println("Hello \nworld");
+        System.out.println("Hello \'world");
+        System.out.println("Hello \"world");
+        System.out.println("Hello \\world");
+        System.out.println("Hello \"world\"");
+        System.out.println("The movie is: \'The Lord of the Rings\'");
+      //  System.out.println(5d/3d);
 
 
     }

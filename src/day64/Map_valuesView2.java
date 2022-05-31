@@ -16,7 +16,7 @@ public class Map_valuesView2 {
 
         System.out.println("groceryPriceMap = " + groceryPriceMap);
         Collection<Double> allPrices = groceryPriceMap.values();
-
+        System.out.println(allPrices);
         // remove all entry of the groceryPriceMap if the price value is more than 3
 
 //        allPrices.removeIf(eachPrice -> eachPrice>3);
@@ -29,7 +29,7 @@ public class Map_valuesView2 {
             }
         }
 
-
+        System.out.println(allPrices);
 
     }
 }

@@ -1,28 +1,29 @@
 package day40;
 
 import java.util.ArrayList;
+import java.util.TreeSet;
 
 public class HotMarketAction {
     public static void main(String[] args) {
-        Offer o1= new Offer();
-        o1.company="apple";
-        o1.location="Austin";
-        o1.isFullTime=true;
-        o1.salary=140000;
+        Offer o1 = new Offer();
+        o1.company = "apple";
+        o1.location = "Austin";
+        o1.isFullTime = true;
+        o1.salary = 140000;
         o1.displayInformation();
 
-        Offer o2= new Offer();
-        o2.company="google";
-        o2.location="san francisco";
-        o2.isFullTime=true;
-        o2.salary=160000;
+        Offer o2 = new Offer();
+        o2.company = "google";
+        o2.location = "san francisco";
+        o2.isFullTime = true;
+        o2.salary = 160000;
         o2.displayInformation();
 
-        Offer o3= new Offer();
-        o3.company="amazon";
-        o3.location="new york";
-        o3.isFullTime=true;
-        o3.salary=120000;
+        Offer o3 = new Offer();
+        o3.company = "amazon";
+        o3.location = "new york";
+        o3.isFullTime = true;
+        o3.salary = 120000;
         o3.displayInformation();
 
         Offer o4 = new Offer();
@@ -37,6 +38,7 @@ public class HotMarketAction {
          */
         o4.displayInformation();
 
+
         ArrayList<Offer> myOffers = new ArrayList<>();
         myOffers.add(o1);
         myOffers.add(o2);
@@ -46,7 +48,7 @@ public class HotMarketAction {
         System.out.println("myOffers ----------------------------");
 
         for(Offer each:myOffers){
-            each.displayInformation();
+            each.displayInformation();             //each.toString
         }
 
         System.out.println("myOffers -----------for loop--------");
@@ -58,4 +60,5 @@ public class HotMarketAction {
         }
     }
 
-}
+    }
+

@@ -10,7 +10,7 @@ public class ArrayReverseWarmUp {
             System.out.print(strArrr[i]+"-");
         }
         System.out.println();
-        String strRev="";
+
         int lastIndex =strArrr.length-1;
         for (int i = 0; i < strArrr.length/2; i++) {
             String temp=strArrr[i];

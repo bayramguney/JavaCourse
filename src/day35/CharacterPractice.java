@@ -8,7 +8,7 @@ public class CharacterPractice {
         System.out.println("IS DIGIT METHOD PRACTICE");
         System.out.println(Character.isDigit(' '));
         System.out.println(Character.isDigit('6'));
-        System.out.println(Character.isDigit('A'));
+        System.out.println(Character.isLetter('A'));
 
         String str = "A34B123C4X";
         //GET THE NUMBERS OUT OF THIS STRING AND STORE INTO AN INTEGER VARRIABLE X;

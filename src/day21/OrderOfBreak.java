@@ -5,8 +5,8 @@ public class OrderOfBreak {
 
         for (int x = 0; x <=10; x++) {
 
-            //break;
-            continue;
+            break;
+           // continue;
         }
         System.out.println("The End");
 

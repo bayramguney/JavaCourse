@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WakeUpTaskIf {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        String outcome = "";
+        String outcome ;
         String targetOption = scan.next();
 
         if (targetOption=="Bd") {

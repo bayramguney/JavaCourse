@@ -14,10 +14,11 @@ public class LongestName {
 
         String longestName= nameLst.get(0);
         for (int i = 0; i < nameLst.size(); i++) {
-            if(longestName.length()<nameLst.get(i).length()){
+            if(nameLst.get(i).length()>longestName.length()){
                 longestName= nameLst.get(i);
             }
         }
+
         System.out.println(longestName);
 // length     :  counting the elements inside array , it's a property of array object
             // last element of an array :  arr[arr.length-1]

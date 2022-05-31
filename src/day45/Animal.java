@@ -1,7 +1,9 @@
 package day45;
 
 public class Animal {
-    public void speak(){
+    public void speak() {
         System.out.println("Animal Speak");
     }
+
+
 }

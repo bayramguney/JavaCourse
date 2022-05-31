@@ -1,12 +1,13 @@
 package day41;
 
+
 import day40.BankAccount;
 
 public class AccessModiffierIntro {
     public static void main(String[] args) {
 
 
-        BankAccount b1 = new BankAccount();
+        BankAccount b1=new BankAccount();
         // What is default access modifier
         // if there is no access modifier
         // in front of method or field

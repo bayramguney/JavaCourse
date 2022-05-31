@@ -24,8 +24,8 @@ public class CountWithLoop {
         System.out.println("----3chars-----");
 
         for (int x = 0; x <=lastCharIndex-2 ; x++) {
-           String current2Chars =myName.substring(x,x+3);
-           if(current2Chars.equalsIgnoreCase("lia")){
+           String current3Chars =myName.substring(x,x+3);
+           if(current3Chars.equalsIgnoreCase("lia")){
                 counter++;
         }
 

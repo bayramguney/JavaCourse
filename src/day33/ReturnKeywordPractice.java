@@ -4,7 +4,7 @@ public class ReturnKeywordPractice {
     public static int calculateAndReturnAge(int birthYear){
         int age;
         if(birthYear>1900&& birthYear<2020){
-             age=2019-birthYear;
+             age=2020-birthYear;
         }else{
             age=0;
         }

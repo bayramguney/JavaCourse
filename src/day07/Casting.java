@@ -23,7 +23,7 @@ public class Casting {
         System.out.println(earthtoMoonIn_int);
 
         char myFirstChar= 100;
-        System.out.println(myFirstChar);
+        System.out.println("myfirstChar : "+myFirstChar);
 
         char nOne=73;
         char nTwo= 83;

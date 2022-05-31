@@ -21,6 +21,7 @@ public class ExceptionPractice {
         try {
             System.out.println(name.charAt(targetIndex));
         } catch (Exception e) {
+            e.printStackTrace();
 
             System.out.println("Something unusual happened!!");
         }

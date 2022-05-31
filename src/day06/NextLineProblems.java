@@ -12,10 +12,10 @@ public class NextLineProblems {
 
         System.out.println("What is your age?");
         int age=scan.nextInt();
-        scan.nextLine(); // needed to prevent the "enter" to jump to the below ".nextLine().
+       // scan.nextLine(); // needed to prevent the "enter" to jump to the below ".nextLine().
         // Otherwise when pressed enter after age, it will not allow me to enter address.
         System.out.println("Your age is "+age);
-
+        scan.nextLine();
         System.out.println("What is your address?");
         String address=scan.nextLine();
         System.out.println("Your address is "+address);

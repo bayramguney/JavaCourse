@@ -10,7 +10,7 @@ public class UsingTheValueOfOtherVariables {
 
         String yourOrder= "pizza";
         String myOrder=yourOrder;
-        System.out.println("My Order "+ "\n"+myOrder+" Your Order "+"\n"+ yourOrder);
+        System.out.println("My Order "+ myOrder+"\n"+"Your Order "+ yourOrder+"\n");
 
     }
 }

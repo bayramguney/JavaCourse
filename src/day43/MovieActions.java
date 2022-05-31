@@ -8,6 +8,7 @@ public class MovieActions {
 
     public static void main(String[] args) {
         Movie m1 = new Movie("Joker", 2.5, "Drama");
+        System.out.println(m1);
         printMovieInformation(m1);
 
         Movie m2= new Movie("Cinderella", 1.5, "Family");

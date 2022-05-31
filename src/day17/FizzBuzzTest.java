@@ -24,6 +24,8 @@ public class FizzBuzzTest {
                 System.out.println(num + " is fizz number");
             } else if (num % 5 == 0) {
                 System.out.println(num + " is buzz number");
+            }else{
+                System.out.println(num);
             }
             ++num;
         }

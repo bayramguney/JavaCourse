@@ -60,7 +60,7 @@ public class ArrayListPractice3 {
             if (price > average) {
 
                 productLst.remove(i);
-                --i;
+               --i;
             }
 
         }

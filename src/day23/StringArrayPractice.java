@@ -10,7 +10,12 @@ public class StringArrayPractice {
 
         for (int i = 0; i <show.length; i++) {
             String currentShow = show[i];
-            System.out.println(currentShow+ "Has character count "+ currentShow.length());
+            System.out.println(currentShow+ " Has character count "+ currentShow.length());
+
+        }
+
+        for (String each:show) {
+            System.out.println(each+" "+each.length());
 
         }
 

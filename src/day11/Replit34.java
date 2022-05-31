@@ -13,7 +13,7 @@ public class Replit34 {
     int remainingAfterDimes=remainingAfterQuarter%10;
     nickels=remainingAfterDimes/5;
 
-    if(itemPrice<25 && itemPrice>100){
+    if(itemPrice<25 || itemPrice>100){
         System.out.println("Invalid price!");
     }else if(itemPrice%5!=0){
         System.out.println("Invalid price!");

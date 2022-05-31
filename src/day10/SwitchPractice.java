@@ -13,7 +13,7 @@ public class SwitchPractice {
         minutes=inputSeconds/60;
         seconds=inputSeconds%3600;
 
-        System.out.println(hours);
+        System.out.println(hours +" : " +minutes + " : " + seconds + " : ");
 
     }
 }

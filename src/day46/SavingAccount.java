@@ -32,7 +32,7 @@ public class SavingAccount extends BankAccount{
         //balance = balance - amount -30 ;
 //        balance -= amount;
 //        balance -= 30; // this is the penalty
-        super.withdraw(amount);
+    super.withdraw(amount);
         super.withdraw(30);
         // or super.withdraw(amount+30);
 
@@ -40,7 +40,7 @@ public class SavingAccount extends BankAccount{
 
     @Override
     public void deposit(int amount) {
-        super.deposit(amount);
+       super.deposit(amount);
         super.deposit((int) (amount*interestRate));
 
     }

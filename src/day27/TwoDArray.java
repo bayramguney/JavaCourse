@@ -16,7 +16,7 @@ public class TwoDArray {
             for (int eachCell: eachRow){
                 System.out.print(eachCell+" ");
             }
-            System.out.println();
+            System.out.println("");
 
         }
 

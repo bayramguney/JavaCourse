@@ -57,7 +57,7 @@ concat everyone in one string separated by -
         }
         System.out.println(result);
 
-        System.out.println("teamMates String= " +
+       System.out.println("teamMates String= " +
                 teamMates.toString().replace(", ","-")
                                     .replace("[","")
                                     .replace("]","")

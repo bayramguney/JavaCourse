@@ -14,5 +14,6 @@ public class WarmUp2 {
             System.out.println("My mane don't have bot a and e");
         }
 
+        System.out.println(name.contains("a")&&name.contains("e") ? "var" : "yok");
     }
 }

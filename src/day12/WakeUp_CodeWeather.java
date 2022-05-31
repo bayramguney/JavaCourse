@@ -2,7 +2,7 @@ package day12;
 
 public class WakeUp_CodeWeather {
     public static void main(String[] args) {
-        String weather = "";
+        String weather;
 
         System.out.println("enter the weather status in your state");
         weather = "Rainy";

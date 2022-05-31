@@ -10,10 +10,10 @@ public class LogicalNotOperatot {
         boolean isRecording = false;
         System.out.println(!isRecording);
 
-//        String action;
-//        boolean isGreen=false;
-//        action=(isGreen) ? "Can drive" : "Cannot Drive";
-//        System.out.println(action);
+        String action;
+        boolean isGreen=false;
+        action=(isGreen) ? "Can drive" : "Cannot Drive";
+        System.out.println(action);
 
         System.out.println( !(7>5) );
 

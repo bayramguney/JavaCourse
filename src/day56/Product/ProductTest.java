@@ -9,6 +9,7 @@ public class ProductTest {
 
         System.out.println(p1==p2);
         System.out.println(p2==p3);
+        System.out.println(p2.toString().equals(p3.toString()));
 
     }
 

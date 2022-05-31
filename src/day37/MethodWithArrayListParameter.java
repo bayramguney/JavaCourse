@@ -11,7 +11,7 @@ public class MethodWithArrayListParameter {
         nameLst.add("Guzelnur");
         nameLst.add("Muyesser");
         nameLst.add("Mustafa");
-
+        System.out.println(nameLst);
         arrayListPrinter(nameLst);
     }
     // Create a method that accept a List of String as argument

@@ -31,12 +31,11 @@ public class MoreThanOneChar {
 
         String name = "Gokyuzum";
         int charCount = name.length();
-        int lastCharIndex = charCount - 1;
 
 
         // my condition is x<=charCount-2  or  x<= lastCharIndex-1
 
-        for (int x = 0; x <= lastCharIndex - 1; x += 2) {
+        for (int x = 0; x <= charCount - 2; x += 2) {
 
             System.out.println(name.substring(x, x + 2));
 

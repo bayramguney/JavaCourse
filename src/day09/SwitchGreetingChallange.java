@@ -6,7 +6,7 @@ public class SwitchGreetingChallange {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        String greeting = "";
+        String greeting ;
         System.out.println("enter a number for greeting in different languages");
         int num = scan.nextInt();
         switch (num) {
@@ -33,8 +33,10 @@ public class SwitchGreetingChallange {
                 greeting = "Bonjour";
                 break;
             default:
-                System.out.println("Unknown");
+                greeting = "Unknown";
         }
         System.out.println(greeting + ", SDET");
+
     }
+
 }

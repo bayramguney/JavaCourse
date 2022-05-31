@@ -17,7 +17,7 @@ print only the salary more than 100,000
             System.out.println(eachSalary);
         }
 
-        long max=salaries[0];
+        long max=Long.MIN_VALUE;
         for (int i = 0; i <salaries.length ; i++) {
             if(salaries[i]>max);
             max=salaries[i];

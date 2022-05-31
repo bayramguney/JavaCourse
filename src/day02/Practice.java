@@ -8,5 +8,6 @@ public class Practice {
 
         my$FolderCount=100;
         System.out.println(my$FolderCount);
+
     }
 }

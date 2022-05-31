@@ -9,6 +9,7 @@ public class ZombiArray128 {
         Scanner input = new Scanner(System.in);
         int[] inhabitants = new int[8];
         for(int i=0; i<inhabitants.length; i++) {
+            System.out.println("please a enter an integer");
             inhabitants[i] = input.nextInt();
         }
 

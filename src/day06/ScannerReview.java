@@ -8,7 +8,7 @@ public class ScannerReview {
         System.out.println("Enter the regular price and discount");
 double regularPrice=scan.nextDouble();
 double discount=scan.nextDouble();
-        double salePrice= regularPrice-(regularPrice*discount);
+        double salePrice= regularPrice-(regularPrice*discount/100);
         System.out.println("Your sale price: "+ salePrice);
 
     }

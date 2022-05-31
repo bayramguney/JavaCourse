@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class InitializingVariable {
     public static void main(String[] args) {
-       // int num ;
+        //int num ;
 
-        //a variable inside a method, must get inital
+        //a variable inside a method, must get initalize
         // value before it's being used for the first time
         //and there should be any chance
         //this variable does not get vaule before usage
@@ -14,8 +14,9 @@ public class InitializingVariable {
         //System.out.println(num);
 
         Scanner scan = new Scanner(System.in);
-        String greeting = "";
+
         System.out.println("enter a number for greeting in different languages");
+        String greeting=" " ;
         int num = scan.nextInt();
 
         if (num == 1) {
@@ -37,4 +38,5 @@ public class InitializingVariable {
         }
         System.out.println(greeting + ", SDET");
     }
-}
+    }
+

@@ -9,7 +9,8 @@ public class StringToCharArrayMethod {
         // to a char array from above name
         // without using method we are about to learn
 
-        char[] nameChar= new char[name.length()];
+       char[] nameChar= new char[name.length()];
+
 //        nameChar[0]=name.charAt(0);
 //        nameChar[1]=name.charAt(1);
 

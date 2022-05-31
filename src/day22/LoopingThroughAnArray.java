@@ -9,6 +9,8 @@ public class LoopingThroughAnArray {
         scores[2]=65;
         scores[3]=78;
 
+
+
         // how do we get the siize of any array object
         // array object has a property called length
 

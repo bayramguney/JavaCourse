@@ -6,6 +6,7 @@ import java.util.List;
 
 public class MEthodWithArrayListAsReturnType {
     public static void main(String[] args) {
+        System.out.println("getListFrom1ToFinalNumber = " + getListFrom1ToFinalNumber(65));
 
 
     }

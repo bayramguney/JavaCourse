@@ -103,7 +103,9 @@ movieObj.getName().toUpperCase();
      */
     public static boolean isMovieLengthMoreThan2Hours(Movie movieObj) {
         //TODO YOUR CODE HERE
-        return false;
+        return movieObj.getLength() > 2;
+
+
     }
     /**
      * A method that check the type of movie is Family or not
@@ -155,6 +157,7 @@ movieObj.getName().toUpperCase();
      */
     public static Movie createFamilyMovie(String name, double len) {
         //TODO YOUR CODE HERE
+        Movie m=new Movie(name,len,"Family");
         return null;
     }
 

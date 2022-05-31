@@ -55,7 +55,7 @@ import java.util.Arrays;
                 double price = Double.parseDouble(eachProduct.split(",")[1]);
 
                 if (price > 500) {
-                    System.out.println("price = " + price);
+                    System.out.println("Product name =  "+eachProduct.split(",")[0]+" ----price = " + price);
                 }
 
             }

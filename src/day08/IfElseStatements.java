@@ -15,7 +15,7 @@ public class IfElseStatements {
 
 
         if (currentSpeed>=speedLimit) {
-            System.out.println("get pulled over byt the police");
+            System.out.println("get pulled over by the police");
             System.out.println("given ticket");
         }
         }

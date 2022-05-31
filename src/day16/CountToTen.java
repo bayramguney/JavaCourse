@@ -13,7 +13,7 @@ public class CountToTen {
 //
 //        }
         while (counter <10){
-            System.out.println(++counter);
+            System.out.print(++counter+" ");
         }
 
     }
